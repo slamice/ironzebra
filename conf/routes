@@ -7,6 +7,8 @@ module:testrunner
 GET     /                                       App.Index
 GET     /admin                                  App.Login
 POST    /admin                                  App.LoginPost
+GET     /about                                  App.About
+GET     /music                                  App.music
 
 GET     /posts/                                 Blog.List
 GET     /news/                                  Blog.ListAll

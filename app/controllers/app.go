@@ -28,6 +28,14 @@ func (c App) Index() revel.Result {
 	return c.Render(result)
 }
 
+func (c App) About() revel.Result {
+	return c.Render()
+}
+
+func (c App) Music() revel.Result {
+	return c.Render()
+}
+
 func (c App) Login() revel.Result {
 	/*
 		We define the admin login page here, because it's the

@@ -1,0 +1,95 @@
+body {
+  margin: 0 auto;
+  font-family: 'prenton', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #CFD8E3 100%);
+  /* Mozilla Firefox */ 
+  background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #CFD8E3 100%);
+  /* Opera */ 
+  background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #CFD8E3 100%);
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFFFFF), color-stop(1, #CFD8E3));
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #CFD8E3 100%);
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #CFD8E3 100%);
+}
+
+h1 {
+  color: #AF1E2D;
+}
+
+h3 {
+  color: #FF5200;
+}
+
+.title {
+  text-indent: 20px;
+}
+
+#wrapper {
+  padding-left: 400px;
+  transition: all 0.4s ease 0s;
+}
+
+.space {
+
+}
+
+#sidebar-wrapper {
+  margin-left: -300px;
+  left: 400px;
+  width: 290px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+  transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding-top: 110px;
+  padding-right: 500px;
+}
+
+.sidebar-nav {
+  top: 0;
+  width: 300px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 50px;
+  text-indent: 20px;
+  font-size: 24px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #FF5200;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  font-weight:bold;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}

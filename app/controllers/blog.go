@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"github.com/gorilla/feeds"
-	"github.com/hermanschaaf/ironzebra/app/models"
-	"github.com/hermanschaaf/ironzebra/app/routes"
-	"github.com/hermanschaaf/revmgo"
+	"github.com/slamice/ironzebra/app/models"
+	"github.com/slamice/ironzebra/app/routes"
+	"github.com/slamice/revmgo"
 	"github.com/robfig/revel"
 	"github.com/russross/blackfriday"
 	"html/template"

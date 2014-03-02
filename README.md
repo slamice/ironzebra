@@ -20,7 +20,7 @@ Running on Heroku
 
 To get this running on Heroku, I had to run one extra command not given in the Revel docs:
 
-    heroku config:set BUILDPACK_URL=https://github.com/hermanschaaf/heroku-buildpack-go-revel.git
+    heroku config:set BUILDPACK_URL=https://github.com/slamice/heroku-buildpack-go-revel.git
 
 The original Revel URL didn't work, it ran into this problem:
 

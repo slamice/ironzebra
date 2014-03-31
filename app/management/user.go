@@ -2,7 +2,7 @@ package management
 
 import (
 	"code.google.com/p/go.crypto/bcrypt"
-	"github.com/hermanschaaf/ironzebra/app/models"
+	"github.com/slamice/ironzebra/app/models"
 	"labix.org/v2/mgo"
 )
 

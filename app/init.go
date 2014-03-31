@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/hermanschaaf/revmgo"
+	"github.com/slamice/revmgo"
 	"github.com/robfig/revel"
 	"time"
 )

@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"bitbucket.org/gosimple/slug"
-	"github.com/hermanschaaf/ironzebra/app/models"
-	"github.com/hermanschaaf/ironzebra/app/routes"
-	"github.com/hermanschaaf/revmgo"
+	"github.com/slamice/ironzebra/app/models"
+	"github.com/slamice/ironzebra/app/routes"
+	"github.com/slamice/revmgo"
 	"github.com/robfig/revel"
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/bson"

@@ -15,7 +15,7 @@
 
  <h2> <a href="{{url "Blog.List" }}" title="I write fiction, events, coding and travel...">My thoughts...</a></h2>
 
-                {{if .result.ShortID}}<p><b>BUT</b> I was recently thinking about... <a href="{{url "Blog.Show" .result.Category .result.ShortID .result.Slug }}">{{.result.Title}}</a></p>{{end}}
+                {{if .result.ShortID}}<p>I was recently thinking about... <a href="{{url "Blog.Show" .result.Category .result.ShortID .result.Slug }}">{{.result.Title}}</a></p>{{end}}
             </div>
         </div>
     </div>

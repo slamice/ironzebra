@@ -2837,7 +2837,7 @@ table [class*=span],
   color: #ffffff;
   text-decoration: none;
   background-color: #FF5200;
-  background-color: #0081c2;
+  background-color: #FF5200;
   background-image: linear-gradient(to bottom, #FF5200, #0077b3);
   background-image: -moz-linear-gradient(top, #FF5200, #0077b3);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF5200), to(#0077b3));
@@ -3196,7 +3196,7 @@ input[type="button"].btn-block {
   background-repeat: repeat-x;
   border-color: #0044cc #0044cc #002a80;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#FF5200', endColorstr='#FF5200', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
 

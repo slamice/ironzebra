@@ -1,0 +1,16 @@
+Searching 49 files for "Blog/list.html"
+
+/Users/slamice/Documents/development/go/src/ironzebra/app/views/Blog/ListAll.html:
+    1  {{set . "title" "All Blog Posts, Even the Really Old Ones"}}
+    2: {{template "Blog/List.html" .}}
+
+/Users/slamice/Documents/development/go/src/ironzebra/app/views/Blog/ListCategory.html:
+    1  {{set . "title" .currentCategory }}
+    2: {{template "Blog/List.html" .}}
+
+/Users/slamice/Documents/development/go/src/ironzebra/app/views/Blog/ListTag.html:
+    1  {{set . "title" .tagTitle }}
+    2  {{set . "tag" .currentTag }}
+    3: {{template "Blog/List.html" .}}
+
+3 matches across 3 files

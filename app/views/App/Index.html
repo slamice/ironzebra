@@ -3,19 +3,19 @@
 </head>
 {{set . "postTitle" "Fever Of Time"}}
 {{template "base.html" .}}
-                <h1>Fever Of Time<h5>It just makes sense ._.</h5></h1>
+                <h1>Fever Of Time<h5>Whatever that means, I'm feeling it ._.</h5></h1>
 
-                <p>My name is Issam. Musician. Dev and support @ <a href="www.gengo.com">Gengo</a>. I put down my thoughts and musings here.</p>
+                <p>My name is Issam. Musician. Dev and support @ <a href="http://www.gengo.com">Gengo</a>. I put down my thoughts and musings here.</p>
                 <p>I use these social apparatuses:</p>
 
-                <a href="/"><img alt="Github" src="/public/images/github.png"></a>
-                <a href="/"><img alt="Linkedin" src="/public/images/linkedin.png"></a>
-                <a href="/"><img alt="Twitter" src="/public/images/twitter.png"></a>
+                <a href="/"><img alt="Github" src="/public/assets/github.png"></a>
+                <a href="/"><img alt="Linkedin" src="/public/assets/linkedin.png"></a>
+                <a href="/"><img alt="Twitter" src="/public/assets/twitter.png"></a>
 
-
- <h2> <a href="{{url "Blog.List" }}" title="I write fiction, events, coding and travel...">My thoughts...</a></h2>
-
-                {{if .result.ShortID}}<p>I was recently thinking about... <a href="{{url "Blog.Show" .result.Category .result.ShortID .result.Slug }}">{{.result.Title}}</a></p>{{end}}
+        <br/>
+                <div class="right">
+                    <h3><a href="{{url "Blog.List" }}" title="I write fiction, events, coding and travel...">My blog...</a></h3>
+                </div>
             </div>
         </div>
     </div>

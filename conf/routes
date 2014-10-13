@@ -27,7 +27,7 @@ GET     /admin/categories                       Admin.Categories
 POST    /admin/categories/new                   Admin.NewCategory
 POST    /admin/categories/delete                Admin.DeleteCategory
 
-GET     /favicon.ico                            Static.Serve("public/images","favicon.png")
+GET     /favicon.ico                            Static.Serve("public/assets","favicon.png")
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/*filepath                       Static.Serve("public")

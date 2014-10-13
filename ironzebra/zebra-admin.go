@@ -24,7 +24,7 @@ func printHelp() {
 	fmt.Println("\nzebra-admin [OPTIONS] your/app/path [command]\n")
 	fmt.Println("List of possible commands:")
 	fmt.Println("--------------------------")
-	fmt.Println("adduser   [Create a new user]")
+	fmt.Println("adduser [Create a new user]")
 	fmt.Println("")
 	fmt.Println("Options:")
 	flag.PrintDefaults()
